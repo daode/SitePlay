@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>#{get 'title' /}</title>
-        <meta charset="${_response_encoding}">
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
-        #{get 'moreStyles' /}
-        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-        <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
-        #{get 'moreScripts' /}
-    </head>
-    <body>
-        #{doLayout /}
-    </body>
+<head>
+<title>#{get 'title' /}</title>
+
+
+<meta charset="${_response_encoding}">
+ <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/ui-darkness/jquery-ui.css">
+<link rel="stylesheet" media="screen"
+	href="@{'/public/stylesheets/main.css'}">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+#{get 'moreStyles' /}
+<link rel="shortcut icon" type="image/png"
+	href="@{'/public/images/favicon.png'}">
+<!-- Ajout des librairies JQuery JS et JQuery UI dans le main.html-->
+<!-- Le thème de JQuery UI ajouté est bleu-->
+
+
+
+
+#{get 'moreScripts' /}
+
+
+</head>
+<body>
+	#{doLayout /}
+	<script src="@{'/public/javascripts/scripts.js'}"
+		type="text/javascript" charset="${_response_encoding}"></script>
+</body>
 </html>

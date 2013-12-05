@@ -1,0 +1,15 @@
+.ui-menu {
+	width: 100px;
+	font-size: 12px;
+	min-height: 22px;
+	/* définit la hauteur minimale du menu (dépendante de la valeur de font-size) */
+}
+
+ul#menu {
+	width: 500px; /* définit la largeur totale du menu */
+}
+
+ul#menu>li {
+	width: 100px; /* définit la largeur des items de niveau 1 */
+	float: left; /* définit le positionnement des items de niveau 1 */
+}
