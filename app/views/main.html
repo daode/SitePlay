@@ -2,20 +2,68 @@
 
 <html>
     <head>
+    
+    	<!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"> -->
+    	<!-- <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/le-frog/jquery-ui.min.css"> -->
+    	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/flick/jquery-ui.css">
+    	
+    	
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+ 		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> 
         <title>#{get 'title' /}</title>
+         
         <meta charset="${_response_encoding}">
         <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-        <!-- Ajout des librairies JQuery JS et JQuery UI dans le main.html-->
-        <!-- Le thème de JQuery UI ajouté est bleu-->
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-        <script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
- 	    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> 
         
         #{get 'moreScripts' /}
+        <script src="@{'/public/javascripts/scripts.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        
     </head>
     <body>
-        #{doLayout /}
+        
+        
+       
+<div id="tabs">
+  <img src="@{'/public/images/BO.png'}"/> 
+  <ul>
+    <li><a href="#tabs-1">LE CABINET</a></li>
+    <li><a href="#tabs-2">LES EXPERTISES</a></li>
+    <li><a href="#tabs-3">NOS PARTENAIRES</a></li>
+    <li><a href="#tabs-4">CONTACT</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Notre histoire a de l'avenir. L'excellence a de l'avenir !</p>
+    <br>
+    Source: Cabinet FIDAL http://www.fidal.fr/le-cabinet/edito.html
+  </div>
+  <div id="tabs-2">
+    <p>La multi-expertise du cabinet et la valeur partagée du travail en équipe nous permettent de proposer à nos clients une offre juridique et fiscale globale. Cette approche représente pour les entreprises qui nous font confiance l'assurance de disposer de solutions fiables et adaptées à chaque situation.</p>
+  </div>
+  <div id="tabs-3">
+    <p></p>
+    <img alt="" src="http://www.algerie-monde.com/administration/agences-gouvernementales/logo-ansej.jpg">
+  </div>
+  <div id="tabs-4">
+    <!-- #{doLayout /} -->
+       
+        <P>
+        BOUISSIERES OUAFI, Votre projet c'est notre affaire.
+        <br>
+        Bureau d'affaires
+        Audit et Conseil
+        Investissement
+        Informatique Industrielle et Productique
+        Import Export.
+        <br>
+        <b>Tél: </b> +213 557 512 438
+        <br>
+        <b>Mail: </b>ouafi.khalida@gmail.com
+        <br>
+        <b>Site: </b>BOUISSIERESOUAFI.com
+        </P>
+    </div>
+</div>
     </body>
 </html>
