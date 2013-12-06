@@ -1,4 +1,7 @@
-Le projet SitePlay est une application web destinée à devenir un site web.
-Cette application est développée à l'aide du Framework Play!.
-Créée par amine2ouafi@gmail.com
+Le projet SitePlay est une application web destinÃ©e Ã  devenir un site web.
+
+Cette application est dÃ©veloppÃ© Ã  l'aide du Framework Play! et JQuery UI.
+
+CrÃ©Ã©e par amine2ouafi@gmail.com
+
 Blog: aouafi.blogspot.com
