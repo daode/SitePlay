@@ -1,6 +1,7 @@
 #tabs {
 background-image: linear-gradient(white, #D6EBFF);
-width: 1000px;
+width : 1000px; 
+margin : auto;
  
 }
 
@@ -22,6 +23,3 @@ width: 300px;
 /* spécifiez la largeur de l'image, une bonne habitude à prendre */
 }
 
-div{
-	 display: inline-block; 
-}
