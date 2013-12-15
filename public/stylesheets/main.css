@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #tabs {
 background-image: linear-gradient(black, black);
 width : 1000px; 
@@ -18,14 +18,10 @@ text-align:center;
 display: block;
 float:  center;
 margin: 0 auto;
-height: 150px;
+height: 200px;
 /* spécifiez la hauteur de l'image, une bonne attitude à prendre */
 width: 300px;
 /* spécifiez la largeur de l'image, une bonne habitude à prendre */
 }
 
-=======
-#tabs{
-	background-image:linear-gradient(white, #D6EBFF)
-}
->>>>>>> f0ad1dd27365ca03e223ff9c46bd506ad3b0dfbf
+
