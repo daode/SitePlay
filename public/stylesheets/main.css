@@ -1,6 +1,7 @@
 
 #tabs {
-background-image: linear-gradient(black, black);
+/*background-image: linear-gradient(#3d3644, #3d3644);*/
+background: #000000 url(http://download.jqueryui.com/themeroller/images/ui-bg_loop_25_000000_21x21.png) 50% 50% repeat;
 width : 1000px; 
 margin : auto;
  
